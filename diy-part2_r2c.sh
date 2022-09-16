@@ -13,5 +13,5 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.50.2/g' package/base-files/files/bin/config_generate
 
-# TEST - Swap wan and lan port on R2C router
-sed -i "s/'eth1' 'eth0'/'eth0' 'eth1'/g" target/linux/rockchip/armv8/base-files/etc/board.d/02_network
+# Swap wan and lan port on R2C router
+#sed -i "s/'eth1' 'eth0'/'eth0' 'eth1'/g" target/linux/rockchip/armv8/base-files/etc/board.d/02_network
